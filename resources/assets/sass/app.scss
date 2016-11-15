@@ -9,10 +9,15 @@
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-.jumbotron {
-    background-image: url(../images/main-bg.jpg);
+.container {
+    width: 100%;
 }
 
 #app {
     margin-top: 6rem;
+}
+
+.jumbotron {
+    background-image: url(../images/main-bg.jpg);
+    background-size: 100%;
 }

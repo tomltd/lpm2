@@ -4,6 +4,15 @@
 
 // Variables
 @import "variables";
+@import "nav";
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.jumbotron {
+    background-image: url(../images/main-bg.jpg);
+}
+
+#app {
+    margin-top: 6rem;
+}

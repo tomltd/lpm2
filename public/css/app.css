@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+.navbar {
+  max-width: 1000px;
+  margin: 0 auto; }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -5765,5 +5769,11 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+.jumbotron {
+  background-image: url(../images/main-bg.jpg); }
+
+#app {
+  margin-top: 6rem; }
 
 /*# sourceMappingURL=app.css.map */

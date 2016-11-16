@@ -11,13 +11,17 @@
 
 .container {
     width: 100%;
+    padding: 0;
+    .jumbotron {
+        background-image: url(../images/main-bg.jpg);
+        background-size: 100%;
+        border-radius: 0;
+        h1 {
+            font-family: 'PT Serif', serif;
+        }
+    }
 }
 
 #app {
-    margin-top: 6rem;
-}
-
-.jumbotron {
-    background-image: url(../images/main-bg.jpg);
-    background-size: 100%;
+    margin-top: 5rem;
 }

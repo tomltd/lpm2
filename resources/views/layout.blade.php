@@ -51,13 +51,25 @@
 
     <div id="app" class="container">
 
-        @yield('nav')
-
         @yield('content')
 
-        {{-- @yield('footer') --}}
+        <footer>
+            <div><p>We are based in Feltham and service: Ashford, Bedfont, Brentford, Isleworth, Feltham,
+                Hampton, Hanworth, Hounslow, Richmond,
+                Shepperton, Strawberry Hill, Teddington, Twickenham
+                and Whitton.</p></div>
+            <div><p>We are updating our web page so please call Lynn on
+
+                07989 582571 for further information
+
+                or email: info@lylepropertymanagement.co.uk</p>
+
+            </div>
+        </footer>
 
     </div>
+
+
 
         <script src="../js/app.js"></script>
     </body>
